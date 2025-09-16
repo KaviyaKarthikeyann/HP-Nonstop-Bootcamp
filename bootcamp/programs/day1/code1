@@ -1,1 +1,50 @@
-this is day 1 code 1.
+this is day 1.
+COBOL PROGRAMMING
+
+Common Business Oriented Language 
+PIC X for alphanumeric
+PIC 9 for numeric
+PIC S9 for signed numbers
+COBOL control structures include 
+conditional statements (IF, EVALUATE) 
+loops (PERFORM)
+Error handling in COBOL can be managed using the
+FILE STATUS clause for file operations 
+INVALID KEY and AT END clauses for other operations.
+
+PROCEDURE DIVISION.
+A0000-FIRST-PARA SECTION.
+FIRST-PARAGRAPH.
+ACCEPT WS-ID            - Statement-1  -----|
+MOVE '10' TO WS-ID      - Statement-2       |-- Sentence - 1
+DISPLAY WS-ID           - Statement-3  -----|
+
+Div, sec, para, sentences, Statements, characters
+
+Identification div- first and only mandatory division of every COBOL program
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO.
+PROCEDURE DIVISION.
+DISPLAY 'hello, today is tuesday'.
+STOP RUN.
+
+Environment division is used to specify input and output files to the program. It consists of two sections −
+
+Configuration section provides information about the system on which the program is written and executed. It consists of two paragraphs −
+Source computer − System used to compile the program.
+Object computer − System used to execute the program.
+
+Input-Output section provides information about the files to be used in the program. It consists of two paragraphs −
+File control − Provides information of external data sets used in the program.
+I-O control − Provides information on files used in the program.
+ENVIRONMENT DIVISION.
+CONFIGURATION SECTION.
+   SOURCE-COMPUTER. XXX-ZOS.
+   OBJECT-COMPUTER. XXX-ZOS.
+INPUT-OUTPUT SECTION.
+   FILE-CONTROL.
+   SELECT FILEN ASSIGN TO DDNAME
+   ORGANIZATION IS SEQUENTIAL.
+
+
+
