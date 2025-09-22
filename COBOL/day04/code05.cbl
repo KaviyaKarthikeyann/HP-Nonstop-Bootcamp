@@ -12,9 +12,9 @@
        77 my-add pic x(40) value "23, main street, NY". 
 
         01 my-score.
-            02 math pic 9(3).
-            02 phy pic 9(3).
-            02 bio pic 9(4).
+            05 math pic 9(3).
+            05 phy pic 9(3).
+            05 bio pic 9(4).
 
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
