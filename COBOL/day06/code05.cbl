@@ -23,10 +23,6 @@
                display "tax is " tax
            else 
                DISPLAY " you have no tax"
-           END-IF.
-           
-           
-            
-            
+           END-IF.         
        END PROGRAM taxc.
 
