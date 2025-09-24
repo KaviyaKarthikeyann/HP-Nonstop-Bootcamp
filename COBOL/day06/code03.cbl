@@ -9,7 +9,7 @@
        
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
-           compute c= a**b.
+           compute c= a**b.   *> exponentiation
             DISPLAY c.
             STOP RUN.
        END PROGRAM expo.
